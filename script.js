@@ -194,7 +194,7 @@ function changeLanguage() {
     document.querySelector('.faq-container .resposta4 .p4').textContent = '3: Ambos ';
     document.querySelector('.faq-container .resposta4 .p5').textContent = 'Tanto o Google Ads, quanto o Google Orgânico trazem resultados, cada um com sua característica e velocidade.';
     document.querySelector('.faq-container .pergunta5 h3').textContent = 'Qual é o melhor caminho para conseguir resultados rápidos no Google?';
-    document.querySelector('.faq-container .resposta p').textContent = 'Com absoluta certeza o caminho mais seguro se obter resultado de forma rápida no Google é investir no Google Ads - plataforma paga do Google.';
+    document.querySelector('.faq-container .resposta5 p').textContent = 'Com absoluta certeza o caminho mais seguro se obter resultado de forma rápida no Google é investir no Google Ads - plataforma paga do Google.';
     document.querySelector('.faq-container .pergunta6 h3').textContent = 'Quanto devo investir no Google Ads?';
     document.querySelector('.faq-container .resposta6 .p1').textContent = 'O investimento necessário para conseguir bons resultados no Google Ads depende de alguns fatores que precisam ser analisados, como: volume de pesquisa, concorrência, valor do clique';
     document.querySelector('.faq-container .resposta6 .p2').textContent = 'Uma campanha bem estruturada do Google Ads precisa considerar um orçamento de pelo menos 300 cliques.';
