@@ -188,10 +188,13 @@ body.dark-theme {
 }
 
 .navigation .logo-img{
-    width: 12rem;
+    width: 5rem;
+    margin-left: -8px;
+
 }
 
 .navigation .logo {
+    margin-right: 100px;
     color: var(--red);
     font-size: 1.7rem;
     font-weight: 600;
