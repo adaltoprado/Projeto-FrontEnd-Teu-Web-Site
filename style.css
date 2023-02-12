@@ -254,13 +254,7 @@ body.dark-theme {
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
-    margin-bottom: 3rem;
-}
-
-.home .text-h4 {
-    color: var(--red);
-    font-size: 1.7rem;
-    font-weight: 600;
+    margin-bottom: 4rem;
 }
 
 .home span {
@@ -272,10 +266,10 @@ body.dark-theme {
 }
 
 .home-text .text-h4 {
-    font-size: 1.5rem;
     color: var(--red);
+    font-size: 1.7rem;
     margin-bottom: 1rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .home-text .text-h1 {
