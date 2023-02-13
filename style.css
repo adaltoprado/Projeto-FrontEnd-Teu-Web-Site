@@ -283,6 +283,8 @@ body.dark-theme {
 }
 
 .home-img img {
+    margin-top: 200px;
+    margin-left: 18px;
     width: 48em;
 }
 
