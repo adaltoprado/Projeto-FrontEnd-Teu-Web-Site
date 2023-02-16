@@ -639,6 +639,7 @@ textarea {
 
 /*  sessão footer  */
 footer{
+    
     height: auto;
     width: 100% ;
     font-family: "Open Sans";
@@ -646,8 +647,8 @@ footer{
     position: absolute;
     text-align: center;
 }  
-
 .footer-content{
+    margin-top: -2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -660,25 +661,21 @@ footer{
     text-transform: capitalize;
     line-height: 3rem;
 }
-.T{
-    color: #d63a25;
-}
-.W{
-    color: #d63a25;
-}
-.S{
-    color: #d63a25;
+.T,
+.W,
+.S {
+    color: var(--red);
 }
 .footer-content p{
+    font-weight:bold;
     max-width: 450px;
     margin: 15px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 13px;
     word-spacing: 2px;
     text-transform: capitalize;
     text-transform: uppercase;
 }
-
 .socials{
     list-style: none;
     display: flex;
@@ -693,31 +690,12 @@ footer{
     text-decoration: none;
     color: #d63a25;
 }
-.socials a i{
-    font-size: 1.3rem;
-    transition: color 4s ease;
-}
-.socials a:hover i{
-    color: red;
-}
-.footer-bottom{
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
 
 /*Icones redes sociais*/
-.Linkedin{
-    max-width: 60px;  
-}
-
-.Instagram{
-    max-width: 60px;
-}
-.Facebook{
-    max-width: 60px;
-}
+.whatsapp,
+.Linkedin,
+.Instagram,
+.Facebook,
 .telegram{
-    max-width: 100px;
+    max-width: 30px;  
 }
-
