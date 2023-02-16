@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -325,26 +325,10 @@ body.dark-theme {
     color: #c8c7c7;
 }
 
-/* plano */
-
-.text-h {
-    text-align: center;
-    padding: 20px 100px;
-
-}
 
 /*Incluso no plano */
-.plano {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    justify-content: space-between;
-}
-
-.todas-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.incluso p {
+    color: #757171;
 }
 
 .incluso .plano .oi1,
@@ -356,50 +340,19 @@ body.dark-theme {
 }
 
 
-/* .incluso .plano .oi2 {
-    margin: auto;
-    width: 50%;
-    padding: 50px
-}
-
-.incluso .plano .oi3 {
-    margin: auto;
-    width: 50%;
-    padding: 50px
-   
-} */
-
-/* .incluso .text-h1 {
-    color: var(--red);
-    text-align: center;
-} */
-
-.incluso p {
-    color: #757171;
-}
-
-.incluso .button-plano {
-    background-color: var(--red);
-    color: #ffffff;
-    padding: 15px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-    text-transform: uppercase;
-    transition: 0.5s all ease-in-out;
-}
-
-.incluso .button-plano:hover {
-    transform: scale(1.1)
-}
-
-.incluso .button {
-    padding: 10px;
-    text-align: center;
+.incluso .plano {
+    display: flex;
     align-items: center;
+    padding: 5px;
+    justify-content: space-between;
 }
+
+.text-h {
+    text-align: center;
+    padding: 20px 100px;
+
+} 
+
 
 
 /* sessão banner */
@@ -435,6 +388,58 @@ body.dark-theme {
     align-items: center;
     justify-content: space-between;
 }
+
+/* MISSAO */
+
+.missao{
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.7)),
+            to(rgba(0, 0, 0, 0.7))),
+        url(fundo-missao.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(fundo-missao.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+.text-missao {
+    color: #ccc;
+    text-align: center;
+    padding: 20px 100px;
+
+} 
+
+.missao .txt-missao .oi1 .img-missao,
+.missao .txt-missao .oi2 .img-missao,
+.missao .txt-missao .oi3 .img-missao {
+    width: 40%;
+}
+
+.missao p {
+    color: #ccc;
+}
+
+.missao .txt-missao .oi1,
+.missao .txt-missao .oi2,
+.missao .txt-missao .oi3 {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+
+.missao .txt-missao {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+
 
 /*  sessão FAQ Perguntas */
 .faq-container {

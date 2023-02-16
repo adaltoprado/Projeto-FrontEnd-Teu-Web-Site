@@ -136,21 +136,23 @@
         margin-bottom: 5rem;
     }
 
-    .incluso{
-        margin-top: 2rem;  
-        margin-bottom: 4rem;
-    }
 
     .plano,
     .incluso,
-    .hospedagem {
+    .hospedagem,
+    .missao,
+    .txt-missao {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
-    
+    .incluso{
+        margin-top: 2rem;  
+        margin-bottom: 4rem;
+    }
+
     .incluso .plano .oi1,
     .incluso .plano .oi2,
     .incluso .plano .oi3 {
@@ -168,6 +170,19 @@
         margin-top: 20px;
         width: 18em;
         
+    }
+
+    /* MISSAO */
+    .missao{
+        margin-top: 2rem;  
+        margin-bottom: 4rem;
+    }
+
+    .missao .txt-missao .oi1,
+    .missao .txt-missao .oi2,
+    .missao .txt-missao .oi3 {
+        width: 50vh;
+        text-align: center;
     }
 
     .contato img {
