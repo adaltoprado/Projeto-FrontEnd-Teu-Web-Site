@@ -90,7 +90,7 @@ function changeLanguage() {
     document.querySelector('.p-modal:nth-of-type(2)').textContent = 'We aim to develop websites, and offer hosting services,and in the future develop apps. We will use Web programming and Wordpress to develop the projects.';
     document.querySelector('.p-modal:nth-of-type(3)').textContent = 'Our mission is to offer our customers the possibility to expand their business in a simple and fast way.';
     document.querySelector('.btn-outline-success').textContent = 'Closed';
-    document.querySelector('.text-h4').textContent = 'Welcome to YourWebSite';
+    document.querySelector('.text-h4').textContent = 'Welcome to TeuWebSite';
     document.querySelector('.text-h1').textContent = 'Professional websites for your business';
     document.querySelector('p b').textContent = 'We create modern and responsive websites that will help you stand out and grow your business';
     document.querySelector('.botao').textContent = 'I want a professional website!';
