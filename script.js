@@ -151,7 +151,7 @@ function changeLanguage() {
     document.querySelector('.nav-item:nth-of-type(3) a').textContent = 'Contato';
     document.querySelector('.nav-item:nth-of-type(4) a').textContent = 'Quem somos';
     document.querySelector('.title-modal').textContent = 'Sobre Nós';
-    document.querySelector('.p-modal:nth-of-type(1)').textContent = 'TeuWebSite é uma empresa criada por quatro amigos de estudos, e um mentor, que buscam adquirir e compartilhar conhecimentos.';
+    document.querySelector('.p-modal:nth-of-type(1)').textContent = 'TeuWebSite é uma empresa criada por 4 Desenvolvedores, e 1 Mentor, que buscam promover o acesso a um site para todos,independentemente de sua renda ou status socioeconômico.';
     document.querySelector('.p-modal:nth-of-type(2)').textContent = 'Temos o objetivo de desenvolver sites, e oferecer serviços de hospedagens,e futuramente desenvolver apps. Utilizaremos programação Web e Wordpress para desenvolver os projetos.';
     document.querySelector('.p-modal:nth-of-type(3)').textContent = 'Nossa missão é oferecer aos nossos clientes a possibilidade de expandir seus negócios de forma simples e rápido.';
     document.querySelector('.btn-outline-success').textContent = 'Fechar';
