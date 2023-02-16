@@ -36,7 +36,7 @@
         position: fixed;
         right: -100%;
         top: 70px;
-        width: 40vh;
+        width: 100vw;
         height: 100%;
         flex-direction: column;
         background: var(--white);
@@ -54,19 +54,15 @@
 
 
     .home {
-        height: 130vh;
         display: flex;
         flex-direction: column;
         
 
     }
 
-    
-
     .home .home-img img {
         width: 20em;
         padding-bottom: 5rem;
-        
     }
 
     .home-text {
@@ -95,7 +91,7 @@
 
 
     .about {
-        height: 165vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
     }
@@ -156,7 +152,7 @@
     .incluso .plano .oi1,
     .incluso .plano .oi2,
     .incluso .plano .oi3 {
-        width: 50vh;
+        width: 50vw;
         text-align: center;
     }
     
@@ -181,7 +177,7 @@
     .missao .txt-missao .oi1,
     .missao .txt-missao .oi2,
     .missao .txt-missao .oi3 {
-        width: 50vh;
+        width: 100vw;
         text-align: center;
     }
 
