@@ -55,7 +55,7 @@ function finalizarPedido() {
   let mensagem;
   mensagem =
     "Olá gostaria de ter meu Web Site! ";
-  window.open("https://wa.me/+5519988313921?text=" + mensagem);
+  window.open("https://wa.me/5519983064893?text=" + mensagem);
 }
 
 //PERGUNTAS
@@ -109,8 +109,10 @@ function changeLanguage() {
     document.querySelector('.hospedagem .text-h1').textContent = 'TURBO PROFESSIONAL HOSTING';
     document.querySelector('.hospedagem .text-2').textContent = 'Included in the plan to track the growth of your business on the Internet';
     document.querySelector('.hospedagem .botao').textContent = 'I want a professional website!';
-    document.querySelector('.banner .banner-h3').textContent = 'WE HAVE OTHER PLANS!';
-    
+    document.querySelector('.missao .text-missao').textContent = 'MISSION';
+    document.querySelector('.missao .oi1 p').textContent = 'Promote access to a website for everyone, regardless of their income or socioeconomic status. We believe that everyone deserves to have the opportunity to evolve and develop, and this can only be achieved through access to information and resources online.';
+    document.querySelector('.missao .oi2 p').textContent = 'We are committed to providing a platform that is accessible and easy to use so that everyone can connect with the information and services they need to grow and thrive. We want to empower people to exploit their potential and achieve their goals, regardless of their circumstances.';
+    document.querySelector('.missao .oi3 p').textContent = 'Our mission is driven by the desire to create a fairer and more equitable world where everyone has equal access to opportunities and resources. We believe that digital inclusion is a key part of this process and we are committed to doing our part to make it a reality.';
     document.querySelector('.faq-container .faq-titulo').textContent = 'FAQ';
     document.querySelector('.faq-container .pergunta1 h3').textContent = 'What do I need to do for my site?';
     document.querySelector('.faq-container .resposta1 .p1').textContent = 'Domain (www.nomedasuaempresa.com.br).';
@@ -140,10 +142,7 @@ function changeLanguage() {
     document.querySelector('.faq-container .resposta8 .p2').textContent = 'Despite this, our client owns the purchased site and can take this content to the server you want - it is important to check the compatibility of the server with the high-level programming developed in WordPress.';
     document.querySelector('.faq-container .botao').textContent = 'I want a professional website!';
     document.querySelector('.footer-content p').textContent = 'Company focused on the development of web sites';
-    
     document.querySelector('.fale-conosco .botao').textContent = 'I want a professional website!';
-
-
   } else {
     currentLanguage = 'pt';
     document.querySelector('#english-button').textContent = 'English';
@@ -175,7 +174,10 @@ function changeLanguage() {
     document.querySelector('.hospedagem .text-h1').textContent = 'HOSPEDAGEM PROFISSIONAL TURBO';
     document.querySelector('.hospedagem .text-2').textContent = 'Incluso no plano para acompanhar o crescimento do seu negócio na internet';
     document.querySelector('.hospedagem .botao').textContent = 'Quero um site profissional!';
-    document.querySelector('.banner .banner-h3').textContent = 'TEMOS OUTROS PLANOS, CONFIRA!';
+    document.querySelector('.missao .text-missao').textContent = 'MISSÃO';
+    document.querySelector('.missao .oi1 p').textContent = 'Promover o acesso a um site para todos, independentemente de sua renda ou status socioeconômico. Acreditamos que todos merecem ter a oportunidade de evoluir e se desenvolver, e isso só pode ser alcançado através do acesso à informação e recursos on-line.';
+    document.querySelector('.missao .oi2 p').textContent = 'Estamos comprometidos em fornecer uma plataforma que seja acessível e fácil de usar para que todos possam se conectar com as informações e serviços que precisam para crescer e prosperar. Queremos capacitar as pessoas a explorar seu potencial e alcançar seus objetivos, independentemente de suas circunstâncias.';
+    document.querySelector('.missao .oi3 p').textContent = 'Nossa missão é impulsionada pelo desejo de criar um mundo mais justo e equitativo, onde todos tenham acesso igualitário às oportunidades e recursos. Acreditamos que a inclusão digital é uma peça fundamental nesse processo e estamos empenhados em fazer a nossa parte para tornar isso uma realidade.';
     document.querySelector('.faq-container .faq-titulo').textContent = 'Perguntas frequentes';
     document.querySelector('.faq-container .pergunta1 h3').textContent = 'O que preciso fazer para meu site?';
     document.querySelector('.faq-container .resposta1 .p1').textContent = 'Domínio (www.nomedasuaempresa.com.br).';

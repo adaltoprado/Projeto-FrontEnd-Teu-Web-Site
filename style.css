@@ -214,6 +214,7 @@ body.dark-theme {
     color: var(--dark);
     font-size: 17px;
     font-weight: 500;
+    font-weight:bold;
     transition: all 0.5s;
 }
 
@@ -288,7 +289,7 @@ body.dark-theme {
     width: 48em;
 }
 
-/* bem vindo */
+/* Cuidamos do seu  site */
 .about {
     display: flex;
     width: 100%;
@@ -420,7 +421,8 @@ body.dark-theme {
 }
 
 .missao p {
-    color: #ccc;
+    font-weight:bold;
+    color: #c8c7c7;
 }
 
 .missao .txt-missao .oi1,
