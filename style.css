@@ -174,7 +174,7 @@ body.dark-theme {
 
 /*CABEÇALHO*/
 .navigation {
-    position: relative;
+    position: fixed;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -183,8 +183,7 @@ body.dark-theme {
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     background: var(--white);
-    transition: all 0.5s;
-    position: fixed;
+    /* transition: all 0.5s; */
 }
 
 .navigation .logo-img{
@@ -284,8 +283,7 @@ body.dark-theme {
 }
 
 .home-img img {
-    margin-top: 200px;
-    margin-left: 18px;
+    margin-top: 100px;
     width: 48em;
 }
 
