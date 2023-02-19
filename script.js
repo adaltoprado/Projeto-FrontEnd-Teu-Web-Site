@@ -50,6 +50,25 @@ function closedModal(fecharModal) {
   document.body.style.overflow = 'auto';
 }
 
+//about
+document.addEventListener("scroll", function() {
+  var alturaTela = window.innerHeight;
+  var posicao = document.querySelector(".about").getBoundingClientRect().top;
+  if (posicao - alturaTela <= 0) {
+    document.querySelector(".about").classList.add("mostrando");
+  }
+});
+
+//missao
+document.addEventListener("scroll", function() {
+  var alturaTela = window.innerHeight;
+  var posicao = document.querySelector(".incluso").getBoundingClientRect().top;
+  if (posicao - alturaTela <= 0) {
+    document.querySelector(".incluso").classList.add("mostrando");
+  }
+});
+
+
 //ENVIAR MENSAGEM WHATSSAP
 function finalizarPedido() {
   let mensagem;
