@@ -62,6 +62,8 @@ document.addEventListener("scroll", function() {
 
 // Inicialize o ScrollReveal
 ScrollReveal().reveal('.about-text', { delay: 200, duration: 1000, origin: 'bottom', distance: '50px' });
+ScrollReveal().reveal('.text-1-1', { delay: 600, duration: 1000, origin: 'left', distance: '50px' });
+ScrollReveal().reveal('.text-h1', { delay: 600, duration: 1000, origin: 'left', distance: '50px' });
 ScrollReveal().reveal('.botao', { delay: 400, duration: 1000, origin: 'bottom', distance: '50px' });
 ScrollReveal().reveal('.about_img', { delay: 600, duration: 1000, origin: 'left', distance: '50px' });
 
